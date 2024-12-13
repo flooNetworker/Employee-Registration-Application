@@ -27,4 +27,4 @@ Click the globe next to the PUT/POST/GET/DELETE mappings in the controller, clic
 2. Use postman or similar
 
 #### Examples:
-Link to generated requests
+Link to generated requests [examples](https://github.com/flooNetworker/Employee-Registration-Application/blob/main/src/test/generated-requests.http)
