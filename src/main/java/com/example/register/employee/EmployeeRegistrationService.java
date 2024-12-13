@@ -72,6 +72,7 @@ public class EmployeeRegistrationService {
         employeeRepository.save(employee);
     }
 
+    // I considered moving this to a utils directory
     private Employee findEmployeeById(Long employeeId) {
         return employeeRepository.findById(employeeId).orElseThrow(() -> new IllegalStateException("Employee with id " + employeeId + " does not exist"));
     }
